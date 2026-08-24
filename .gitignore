@@ -1,0 +1,47 @@
+# Build outputs and binaries
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+
+# Explicit binary files
+*.exe
+*.dll
+*.pdb
+*.lib
+*.exp
+*.ilk
+*.msi
+*.msm
+*.com
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# SQLite databases & runtime temp files
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+*.safety_backup
+
+# Package cache
+*.nupkg
+packages/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
